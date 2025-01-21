@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ce904d-103a-499d-b595-a33194fa5a9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/21-01-25/2nomer.py" afterDir="false" />
+    <list default="true" id="15ce904d-103a-499d-b595-a33194fa5a9c" name="Changes" comment="NUMB2">
+      <change afterPath="$PROJECT_DIR$/21-01-25/15nom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +39,22 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2rwVQJhXCSm5EaDwiYUBowNq5J3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.2nomer.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/DKiselev/PycharmProjects/kege2025/21-01-25"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.2nomer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DKiselev/PycharmProjects/kege2025/21-01-25&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DKiselev\PycharmProjects\kege2025\21-01-25" />
@@ -74,6 +76,19 @@
       <option name="presentableId" value="Default" />
       <updated>1737470106979</updated>
     </task>
+    <task id="LOCAL-00001" summary="NUMB2">
+      <option name="closed" value="true" />
+      <created>1737479207166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737479207166</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NUMB2" />
+    <option name="LAST_COMMIT_MESSAGE" value="NUMB2" />
   </component>
 </project>
