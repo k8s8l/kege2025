@@ -3,7 +3,7 @@ def f(a):
         f=((a,x) <=(x == a)or(x==1))
         if not f:
             return False
-    return True
+        return True
 for a in range(1,11111):
     if f(a):
         print(a)

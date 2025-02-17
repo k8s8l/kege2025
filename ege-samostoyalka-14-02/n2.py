@@ -6,4 +6,4 @@ for x in 0,1:
                f = (not w) and( y or z<=y and (not x))
                if (f):
                    print(x,y,z,w)
-                   #wxyz
+                      #wzyx

@@ -6,7 +6,7 @@ for n in range(0,10000):
     else:
         r=r + bin(n%3*3)[2:0]
         r=int(r,10)
-        if r>170:
+        if r<170:
             ans.append(r)
 print(max(ans))
 
