@@ -3,7 +3,7 @@ def f(x):
     p=25<=x<=73
     q=75<=x<=118
     a=a1<=x<=a2
-    return a and (not a) <= p or q
+    return ((a and (not q)) <= (p or q))
 ans=[]
 line = [x/10 for x in range(25*10,118*10)]
 for a1,a2 in combinations(line,2):
@@ -11,3 +11,4 @@ for a1,a2 in combinations(line,2):
         ans.append(a2-a1)
 
 print(max(ans))
+#не запускается
