@@ -5,4 +5,4 @@ for h in range(2):
                 f = not(h<=l)<= (not(w<=n)) and h
                 if f:
                     print(h, l, w, n)
-#otvet yxzw
+#otvet
