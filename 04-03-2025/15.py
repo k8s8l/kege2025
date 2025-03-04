@@ -3,7 +3,7 @@ def f(x):
     p=15<=x<=40
     q=21<=x<=63
     a=a1<=x<=a2
-    return p<=(q or (not a)<=(not p))
+    return p<=(q and (not a)<=(not p))
 ans=[]
 line = [x/10 for x in range(15*10,63*10)]
 for a1,a2 in combinations(line,2):
