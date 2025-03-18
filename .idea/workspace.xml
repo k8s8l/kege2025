@@ -5,30 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ce904d-103a-499d-b595-a33194fa5a9c" name="Changes" comment="dz">
-      <change afterPath="$PROJECT_DIR$/13-02-25/1320.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-02-25/17_19249.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-02-25/19249-task-17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-02-25/1927.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-02-25/task-17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/31-01-25/15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dz-11-02-25/16883.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dz-11-02-25/18595.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dz-11-02-25/4327.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dz-11-02-25/7846.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dz-11-02-25/9363.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ege-dz----/1927.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ege-samostoyalka-14-02/17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ege-samostoyalka-14-02/17_7716.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ege-samostoyalka-14-02/n14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-03-2025/зада.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-03-2025/23 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-03-2025/23.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-03-2025/23 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-03-2025/23 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-03-2025/23 5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21-02-25/25(3).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21-02-25/25(4).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21-02-25/25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24-02-25/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24-02-25/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-02-25/17642.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-02-25/17686.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-02-25/25-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-02-25/25.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24-01-25/15.py" beforeDir="false" afterPath="$PROJECT_DIR$/24-01-25/15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ege-dz-26-01-25/n12.py" beforeDir="false" afterPath="$PROJECT_DIR$/ege-dz----/n12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ege-dz-26-01-25/n15.py" beforeDir="false" afterPath="$PROJECT_DIR$/ege-dz----/n15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ege-dz-26-01-25/n2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ege-dz----/n2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ege-dz-26-01-25/n6.py" beforeDir="false" afterPath="$PROJECT_DIR$/ege-dz----/n6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ege-dz-26-01-25/n8.py" beforeDir="false" afterPath="$PROJECT_DIR$/ege-dz----/n8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ege-samostoyalka-14-02/n2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ege-samostoyalka-14-02/n2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ege-samostoyalka-14-02/n5.py" beforeDir="false" afterPath="$PROJECT_DIR$/ege-samostoyalka-14-02/n5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-03-2025/5.py" beforeDir="false" afterPath="$PROJECT_DIR$/04-03-2025/5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-02-25dz/12.py" beforeDir="false" afterPath="$PROJECT_DIR$/20-02-25dz/12.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +52,9 @@
     &quot;accountId&quot;: &quot;21900174-4fe0-410d-bccf-f6b5ef8a06e9&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/20-02-25dz/12.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -73,14 +71,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.1.executor": "Run",
+    "Python.12.executor": "Run",
     "Python.1320.executor": "Run",
     "Python.14651.executor": "Run",
+    "Python.15-16833.executor": "Run",
     "Python.15.executor": "Run",
+    "Python.15sr.executor": "Run",
+    "Python.16 1860.executor": "Run",
+    "Python.16-2.executor": "Run",
+    "Python.16-3.executor": "Run",
+    "Python.16.executor": "Run",
     "Python.18579.executor": "Run",
     "Python.18595.executor": "Run",
     "Python.19249-task-17.executor": "Run",
+    "Python.2.executor": "Run",
+    "Python.23 3.executor": "Run",
+    "Python.23 5.executor": "Run",
+    "Python.23.executor": "Run",
+    "Python.25 num.executor": "Run",
+    "Python.25(3).executor": "Run",
+    "Python.25(4).executor": "Run",
+    "Python.25-4603(2).executor": "Run",
+    "Python.25.executor": "Run",
+    "Python.25n1.executor": "Run",
     "Python.748.executor": "Run",
     "Python.7846.executor": "Debug",
+    "Python.N2.executor": "Run",
+    "Python._pydev_execfile.executor": "Run",
     "Python.adswad.executor": "Run",
     "Python.n12.executor": "Run",
     "Python.n14.executor": "Run",
@@ -88,15 +106,20 @@
     "Python.n2.executor": "Run",
     "Python.n5.executor": "Debug",
     "Python.n6.executor": "Run",
+    "Python.n8-9994.executor": "Run",
     "Python.n8.executor": "Run",
+    "Python.н2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/User/Desktop/kege2025/ege-dz-26-01-25"
+    "last_opened_file_path": "C:/Users/User/Desktop/kege2025"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\kege2025\07-03-2025" />
+      <recent name="C:\Users\User\Desktop\kege2025\04-03-2025" />
+      <recent name="C:\Users\User\Desktop\kege2025\18-02-25" />
       <recent name="C:\Users\User\Desktop\kege2025\ege-dz-26-01-25" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -176,7 +199,151 @@
       <option name="project" value="LOCAL" />
       <updated>1739554372469</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dz">
+      <option name="closed" value="true" />
+      <created>1739803058372</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739803058372</updated>
+    </task>
+    <task id="LOCAL-00009" summary="dz">
+      <option name="closed" value="true" />
+      <created>1739895150717</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739895150717</updated>
+    </task>
+    <task id="LOCAL-00010" summary="dz">
+      <option name="closed" value="true" />
+      <created>1739895478853</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739895478853</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dz">
+      <option name="closed" value="true" />
+      <created>1739895694487</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739895694487</updated>
+    </task>
+    <task id="LOCAL-00012" summary="dz">
+      <option name="closed" value="true" />
+      <created>1739896172497</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739896172497</updated>
+    </task>
+    <task id="LOCAL-00013" summary="dz">
+      <option name="closed" value="true" />
+      <created>1740091282296</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740091282296</updated>
+    </task>
+    <task id="LOCAL-00014" summary="dz">
+      <option name="closed" value="true" />
+      <created>1740154640820</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740154640820</updated>
+    </task>
+    <task id="LOCAL-00015" summary="dz">
+      <option name="closed" value="true" />
+      <created>1740155399759</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740155399759</updated>
+    </task>
+    <task id="LOCAL-00016" summary="dz">
+      <option name="closed" value="true" />
+      <created>1740758913735</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740758913735</updated>
+    </task>
+    <task id="LOCAL-00017" summary="dz">
+      <option name="closed" value="true" />
+      <created>1740758924362</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740758924362</updated>
+    </task>
+    <task id="LOCAL-00018" summary="dz">
+      <option name="closed" value="true" />
+      <created>1740759769963</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740759769963</updated>
+    </task>
+    <task id="LOCAL-00019" summary="dz">
+      <option name="closed" value="true" />
+      <created>1741104635894</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1741104635894</updated>
+    </task>
+    <task id="LOCAL-00020" summary="dz">
+      <option name="closed" value="true" />
+      <created>1741108258461</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1741108258461</updated>
+    </task>
+    <task id="LOCAL-00021" summary="dz">
+      <option name="closed" value="true" />
+      <created>1741108310429</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1741108310429</updated>
+    </task>
+    <task id="LOCAL-00022" summary="dz">
+      <option name="closed" value="true" />
+      <created>1741356373962</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1741356373962</updated>
+    </task>
+    <task id="LOCAL-00023" summary="dz">
+      <option name="closed" value="true" />
+      <created>1741356486365</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1741356486365</updated>
+    </task>
+    <task id="LOCAL-00024" summary="dz">
+      <option name="closed" value="true" />
+      <created>1741710201160</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1741710201160</updated>
+    </task>
+    <task id="LOCAL-00025" summary="dz">
+      <option name="closed" value="true" />
+      <created>1741972038355</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1741972038355</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,6 +389,16 @@
           <url>file://$PROJECT_DIR$/dz-11-02-25/18595.py</url>
           <line>3</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/13-02-25/1320.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/24-02-25/1.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
