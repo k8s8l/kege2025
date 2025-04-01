@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ce904d-103a-499d-b595-a33194fa5a9c" name="Changes" comment="NUMB2">
-      <change afterPath="$PROJECT_DIR$/21-01-25/15nom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-04-25/19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-03-25/17 (2)_7718.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-03-25/17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-03-25/n1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18-03-25/n12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-03-25/12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/28-01-25/NUM15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/28-01-25/num8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21-01-25/15nom.py" beforeDir="false" afterPath="$PROJECT_DIR$/21-01-25/15nom.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +54,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.2nomer.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DKiselev/PycharmProjects/kege2025/21-01-25&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1276.executor": "Run",
+    "Python.15nom.executor": "Run",
+    "Python.19.executor": "Run",
+    "Python.2nomer.executor": "Run",
+    "Python.747.executor": "Run",
+    "Python.753.executor": "Run",
+    "Python.8.executor": "Run",
+    "Python.n1.executor": "Run",
+    "Python.n1013.executor": "Run",
+    "Python.n12.executor": "Run",
+    "Python.№ 25078603(746).executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/DKiselev/PycharmProjects/kege2025/18-03-25"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DKiselev\PycharmProjects\kege2025\18-03-25" />
       <recent name="C:\Users\DKiselev\PycharmProjects\kege2025\21-01-25" />
     </key>
   </component>
@@ -84,7 +103,31 @@
       <option name="project" value="LOCAL" />
       <updated>1737479207166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="NUMB2">
+      <option name="closed" value="true" />
+      <created>1737480282768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737480282768</updated>
+    </task>
+    <task id="LOCAL-00003" summary="NUMB2">
+      <option name="closed" value="true" />
+      <created>1738691396049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738691396049</updated>
+    </task>
+    <task id="LOCAL-00004" summary="NUMB2">
+      <option name="closed" value="true" />
+      <created>1743525486191</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743525486191</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
