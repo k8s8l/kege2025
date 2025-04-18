@@ -1,0 +1,251 @@
+Index: 11-04-25/13(3).py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/11-04-25/13(3).py b/11-04-25/13(3).py
+new file mode 100644
+--- /dev/null	(date 1744390593753)
++++ b/11-04-25/13(3).py	(date 1744390593753)
+@@ -0,0 +1,8 @@
++from ipaddress import ip_network
++net=ip_network('112.160.0.0/255.240.0.0')
++cnt=0
++for i in net:
++    i=f'{int(i):032b}'
++    if i.count('1')%5!=0:
++        cnt+=1
++print(cnt)
+\ No newline at end of file
+Index: 11-04-25/13(4).py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/11-04-25/13(4).py b/11-04-25/13(4).py
+new file mode 100644
+--- /dev/null	(date 1744391143577)
++++ b/11-04-25/13(4).py	(date 1744391143577)
+@@ -0,0 +1,10 @@
++from ipaddress import ip_network
++for a in range(256):
++    net=ip_network(f'223.167.{a}.167/26',False)
++    cnt=0
++    for i in net:
++        i =f'{int(i):032b}'
++        if i[:16].count('0')<=i[16:].count('0'):
++            cnt+=1
++    if cnt==len(list(net)):
++        print(a)
+Index: 11-04-25/13(4'2).py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/11-04-25/13(4'2).py b/11-04-25/13(4'2).py
+new file mode 100644
+--- /dev/null	(date 1744391278307)
++++ b/11-04-25/13(4'2).py	(date 1744391278307)
+@@ -0,0 +1,10 @@
++from ipaddress import ip_network
++for a in range(256):
++    net=ip_network(f'223.167.{a}.167/26',False)
++    cnt=0
++    for i in net:
++        i =f'{int(i):032b}'
++        if not (i[:16].count('0')<=i[16:].count('0')):
++            break
++    else:
++        print(a)
+Index: 11-04-25/13(5).py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/11-04-25/13(5).py b/11-04-25/13(5).py
+new file mode 100644
+--- /dev/null	(date 1744391897426)
++++ b/11-04-25/13(5).py	(date 1744391897426)
+@@ -0,0 +1,9 @@
++from ipaddress import ip_network
++for mask in range(16,25):
++    net= ip_network(f'152.65.245.132/{mask}',False)
++    for  i in net:
++        i=f'{int(i):032b}'
++        if not (i[:16].count('0')>=i[16:].count('0')):
++            break
++    else:
++        print(net.netmask)
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"15ce904d-103a-499d-b595-a33194fa5a9c\" name=\"Changes\" comment=\"NUMB2\">\r\n      <change afterPath=\"$PROJECT_DIR$/01-04-25/19.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/18-03-25/17 (2)_7718.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/18-03-25/17.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/18-03-25/n1.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/18-03-25/n12.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/25-03-25/12.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/28-01-25/NUM15.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/28-01-25/num8.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/21-01-25/15nom.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/21-01-25/15nom.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;k8s8l&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/k8s8l/kege2025.git&quot;,\r\n    &quot;accountId&quot;: &quot;26252899-f527-4cda-98a9-0ce795249102&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2rwVQJhXCSm5EaDwiYUBowNq5J3\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.1276.executor\": \"Run\",\r\n    \"Python.15nom.executor\": \"Run\",\r\n    \"Python.19.executor\": \"Run\",\r\n    \"Python.2nomer.executor\": \"Run\",\r\n    \"Python.747.executor\": \"Run\",\r\n    \"Python.753.executor\": \"Run\",\r\n    \"Python.8.executor\": \"Run\",\r\n    \"Python.n1.executor\": \"Run\",\r\n    \"Python.n1013.executor\": \"Run\",\r\n    \"Python.n12.executor\": \"Run\",\r\n    \"Python.№ 25078603(746).executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"C:/Users/DKiselev/PycharmProjects/kege2025/18-03-25\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\DKiselev\\PycharmProjects\\kege2025\\18-03-25\" />\r\n      <recent name=\"C:\\Users\\DKiselev\\PycharmProjects\\kege2025\\21-01-25\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"15ce904d-103a-499d-b595-a33194fa5a9c\" name=\"Changes\" comment=\"\" />\r\n      <created>1737470106979</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1737470106979</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"NUMB2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737479207166</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737479207166</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"NUMB2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737480282768</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737480282768</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"NUMB2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1738691396049</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1738691396049</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"NUMB2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1743525486191</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1743525486191</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"NUMB2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"NUMB2\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f1ddaa994ede27b0dd5ef03b466bdca89af11a29)
++++ b/.idea/workspace.xml	(date 1744997622918)
+@@ -5,16 +5,17 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="15ce904d-103a-499d-b595-a33194fa5a9c" name="Changes" comment="NUMB2">
+-      <change afterPath="$PROJECT_DIR$/01-04-25/19.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/18-03-25/17 (2)_7718.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/18-03-25/17.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/18-03-25/n1.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/18-03-25/n12.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/25-03-25/12.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/28-01-25/NUM15.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/28-01-25/num8.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/11-04-25/13(2).py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/11-04-25/13(3).py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/11-04-25/13(4'2).py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/11-04-25/13(4).py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/11-04-25/13(5).py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/11-04-25/13(6).py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/18-04-25/13-1.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/18-04-25/13-2.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/18-04-25/13-3.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/18-04-25/13-4.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/21-01-25/15nom.py" beforeDir="false" afterPath="$PROJECT_DIR$/21-01-25/15nom.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -57,6 +58,16 @@
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "Python.1276.executor": "Run",
++    "Python.13(2).executor": "Run",
++    "Python.13(3).executor": "Run",
++    "Python.13(4'2).executor": "Run",
++    "Python.13(4).executor": "Run",
++    "Python.13(5).executor": "Run",
++    "Python.13(6).executor": "Run",
++    "Python.13-1.executor": "Run",
++    "Python.13-2.executor": "Run",
++    "Python.13-3.executor": "Run",
++    "Python.13-4.executor": "Run",
+     "Python.15nom.executor": "Run",
+     "Python.19.executor": "Run",
+     "Python.2nomer.executor": "Run",
+@@ -127,11 +138,30 @@
+       <option name="project" value="LOCAL" />
+       <updated>1743525486191</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="NUMB2">
++      <option name="closed" value="true" />
++      <created>1744390167996</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1744390167996</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="NUMB2" />
+     <option name="LAST_COMMIT_MESSAGE" value="NUMB2" />
+   </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
++          <url>file://$PROJECT_DIR$/18-04-25/13-1.py</url>
++          <line>8</line>
++          <option name="timeStamp" value="1" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
+ </project>
+\ No newline at end of file
+Index: 11-04-25/13(6).py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/11-04-25/13(6).py b/11-04-25/13(6).py
+new file mode 100644
+--- /dev/null	(date 1744392756370)
++++ b/11-04-25/13(6).py	(date 1744392756370)
+@@ -0,0 +1,9 @@
++from ipaddress import ip_network
++for mask in range(16,25):
++    net=ip_network(f'246.51.128.202/{mask}',False)
++    for i in net:
++        i = f'{int(i):032b}'
++        if not (i[:16].count('0')<=i[16:].count('0')):
++            break
++    else:
++        print(net.netmask)
+\ No newline at end of file
+Index: 18-04-25/13-2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/18-04-25/13-2.py b/18-04-25/13-2.py
+new file mode 100644
+--- /dev/null	(date 1744996981469)
++++ b/18-04-25/13-2.py	(date 1744996981469)
+@@ -0,0 +1,11 @@
++from ipaddress import ip_network,ip_address
++ip1=ip_address('211.115.61.154')
++ip2=ip_address('211.115.59.137')
++for mask in range(33):
++    net1=ip_network(f'{ip1}/{mask}',False)
++    net2 = ip_network(f'{ip2}/{mask}', False)
++    if net1.network_address==net2.network_address:
++        if ip1 not in (net1.network_address,net1.broadcast_address):
++            if ip2 not in (net2.network_address, net2.broadcast_address):
++                print(net1.netmask)
++            #|252|OTMENA NEPRAVILNO
+Index: 18-04-25/13-3.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/18-04-25/13-3.py b/18-04-25/13-3.py
+new file mode 100644
+--- /dev/null	(date 1744997591248)
++++ b/18-04-25/13-3.py	(date 1744997591248)
+@@ -0,0 +1,10 @@
++from ipaddress import ip_network,ip_address
++ip1=ip_address('157.127.182.76')
++ip2=ip_address('157.127.190.80')
++for mask in range(33):
++    net1=ip_network(f'{ip1}/{mask}',False)
++    net2=ip_network(f'{ip2}/{mask}', False)
++    if net1.network_address!=net2.network_address:
++        if ip1 not in (net1.network_address,net1.broadcast_address):
++            if ip2 not in (net2.network_address, net2.broadcast_address):
++                print(mask)
+Index: 18-04-25/13-4.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/18-04-25/13-4.py b/18-04-25/13-4.py
+new file mode 100644
+--- /dev/null	(date 1744997720474)
++++ b/18-04-25/13-4.py	(date 1744997720474)
+@@ -0,0 +1,11 @@
++from ipaddress import ip_network,ip_address
++ip1=ip_address('193.175.175.231')
++ip2=ip_address('193.175.176.118')
++for mask in range(33):
++    net1=ip_network(f'{ip1}/{mask}',False)
++    net2 = ip_network(f'{ip2}/{mask}', False)
++    if net1.network_address!=net2.network_address:
++        if ip1 not in (net1.network_address,net1.broadcast_address):
++            if ip2 not in (net2.network_address, net2.broadcast_address):
++                print(net1.netmask)
++                #otvet 240
+\ No newline at end of file
+diff --git a/18-04-25/13-5.py b/18-04-25/13-5.py
+new file mode 100644
