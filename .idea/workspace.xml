@@ -1,88 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ce904d-103a-499d-b595-a33194fa5a9c" name="Changes" comment="NUMB2">
-      <change afterPath="$PROJECT_DIR$/01-04-25/19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-03-25/17 (2)_7718.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-03-25/17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-03-25/n1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18-03-25/n12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25-03-25/12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/28-01-25/NUM15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/28-01-25/num8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21-01-25/15nom.py" beforeDir="false" afterPath="$PROJECT_DIR$/21-01-25/15nom.py" afterDir="false" />
-    </list>
+    <list default="true" id="15ce904d-103a-499d-b595-a33194fa5a9c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;k8s8l&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/k8s8l/kege2025.git&quot;,
-    &quot;accountId&quot;: &quot;26252899-f527-4cda-98a9-0ce795249102&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2rwVQJhXCSm5EaDwiYUBowNq5J3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.1276.executor": "Run",
-    "Python.15nom.executor": "Run",
-    "Python.19.executor": "Run",
-    "Python.2nomer.executor": "Run",
-    "Python.747.executor": "Run",
-    "Python.753.executor": "Run",
-    "Python.8.executor": "Run",
-    "Python.n1.executor": "Run",
-    "Python.n1013.executor": "Run",
-    "Python.n12.executor": "Run",
-    "Python.№ 25078603(746).executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/DKiselev/PycharmProjects/kege2025/18-03-25"
+    "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DKiselev\PycharmProjects\kege2025\18-03-25" />
-      <recent name="C:\Users\DKiselev\PycharmProjects\kege2025\21-01-25" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
@@ -95,43 +41,6 @@
       <option name="presentableId" value="Default" />
       <updated>1737470106979</updated>
     </task>
-    <task id="LOCAL-00001" summary="NUMB2">
-      <option name="closed" value="true" />
-      <created>1737479207166</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1737479207166</updated>
-    </task>
-    <task id="LOCAL-00002" summary="NUMB2">
-      <option name="closed" value="true" />
-      <created>1737480282768</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1737480282768</updated>
-    </task>
-    <task id="LOCAL-00003" summary="NUMB2">
-      <option name="closed" value="true" />
-      <created>1738691396049</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1738691396049</updated>
-    </task>
-    <task id="LOCAL-00004" summary="NUMB2">
-      <option name="closed" value="true" />
-      <created>1743525486191</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1743525486191</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="NUMB2" />
-    <option name="LAST_COMMIT_MESSAGE" value="NUMB2" />
   </component>
 </project>
