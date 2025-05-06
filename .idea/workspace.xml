@@ -1,34 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ce904d-103a-499d-b595-a33194fa5a9c" name="Changes" comment="" />
+    <list default="true" id="15ce904d-103a-499d-b595-a33194fa5a9c" name="Changes" comment="NUMB2">
+      <change afterPath="$PROJECT_DIR$/06-05-20205/27(19891)a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-05-20205/27(19891)b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-05-20205/27(20497)a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-05-20205/27(20497)b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-05-20205/27.19.A_20497.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-05-20205/27.19.B_20497.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-05-20205/27.3.A_19891.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-05-20205/27.3.B_19891.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22-04-25/12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22-04-25/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-04-25/11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-04-25/13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-04-25/14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-04-25/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-04-25/6-2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-04-25/6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25-04-25/7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-04-25/n13.py" beforeDir="false" afterPath="$PROJECT_DIR$/11-04-25/n13.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;k8s8l&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/k8s8l/kege2025.git&quot;,
+    &quot;accountId&quot;: &quot;26252899-f527-4cda-98a9-0ce795249102&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2rwVQJhXCSm5EaDwiYUBowNq5J3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.11.executor": "Run",
+    "Python.13(4).executor": "Run",
+    "Python.13-1.executor": "Run",
+    "Python.13-2.executor": "Run",
+    "Python.13.executor": "Run",
+    "Python.2.executor": "Run",
+    "Python.27(19891)a.executor": "Run",
+    "Python.27(19891)b.executor": "Run",
+    "Python.27(20497)a.executor": "Run",
+    "Python.27(20497)b.executor": "Run",
+    "Python.27-b.executor": "Run",
+    "Python.27.executor": "Run",
+    "Python.5.executor": "Run",
+    "Python.6-2.executor": "Run",
+    "Python.7.executor": "Run",
+    "Python.n13.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/DKiselev/PycharmProjects/kege2025/06-05-20205"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DKiselev\PycharmProjects\kege2025\06-05-20205" />
+      <recent name="C:\Users\DKiselev\PycharmProjects\kege2025\29-04-25" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -41,6 +109,30 @@
       <option name="presentableId" value="Default" />
       <updated>1737470106979</updated>
     </task>
+    <task id="LOCAL-00001" summary="NUMB2">
+      <option name="closed" value="true" />
+      <created>1745949664476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745949664476</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="NUMB2" />
+    <option name="LAST_COMMIT_MESSAGE" value="NUMB2" />
   </component>
 </project>

@@ -5,4 +5,4 @@ for i in net:
     i=f'{int(i):032b}'
     if i.count('1') % 2!=0:
         cnt += 1
-print(cnt)
+        print(cnt)
